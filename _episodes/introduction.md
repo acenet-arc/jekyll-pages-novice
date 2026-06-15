@@ -35,8 +35,7 @@ Other information received from the server,
 but not displayed by the browser,
 includes **metadata**, **cookies**, and other non-visible elements in the HTML -
 information about the site that could be relevant for a computer
-but probably isn't interesting to a human
-(there are [exceptions][qwantz-easter-egg-ext] to this) -
+but probably isn't interesting to a human -
 and scripts that the browser may run to do something
 in response to various triggers.
 
@@ -213,7 +212,7 @@ you're unlikely to find cost-free platforms to help you deliver dynamic content.
 > >
 > > - (3) **blog/news**: A simple blog or news website, maintained by a small set of users, is perfectly achievable by using a static generator. For very large groups of content creators or if access to articles needs to be controlled individually, using a static generator will lead to difficult technical challenges.
 > > - (4) **search engine**: Most often **No**. Implementing something as sophisticated as Google's search would be close to impossible with a static generator. There are ways to have a simple engine that searches across all pages produced by a static generator using indexing and making clever use of browser features but this approach has many limitations.
-> > - (5) **wiki**: A simple wiki is perfectly doable with a static generator (e.g. [GitHub Wiki Pages](https://guides.github.com/features/wikis/)), however it becomes limiting as soon as its content needs to be edited or discussed by many users, as is the case of Wikipedia.
+> > - (5) **wiki**: A simple wiki is perfectly doable with a static generator (e.g. [GitHub Wiki Pages](https://docs.github.com/en/communities/documenting-your-project-with-wikis/about-wikis)), however it becomes limiting as soon as its content needs to be edited or discussed by many users, as is the case of Wikipedia.
 > > - (6) **online book**: Definitely **Yes**. Static generators are perfect for this type of website. They typically provide ways to avoid repeating content (variables and templates), automatic creation of a *Table Of Contents*, among other goodies.
 > {: .solution }
 {: .challenge }
@@ -293,7 +292,7 @@ but you may want to consider choosing something more restrictive when you’re b
 your own website.
 
 > ## Checkout Other Licences
-> You may want to checkout [this lesson](https://swcarpentry.github.io/git-novice/11-licensing/index.html) or
+> You may want to checkout [this lesson](https://swcarpentry.github.io/git-novice/11-licensing.html) or
 > [GitHub's license documentation](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/licensing-a-repository)
 > for more information about possible licenses.
 {: .callout}
@@ -309,6 +308,5 @@ GitHub will then setup the repo and it should create the repo called `group-webs
 
 ![Github repository for the group website](../fig/group_website_repo.png){: .image-with-shadow width="800px" }
 
-[qwantz-easter-egg-ext]: https://chrome.google.com/webstore/detail/dinosaur-comics-easter-eg/bojkkeeefjmeogpgnlomodfkkfkfhabj
 
 {% include links.md %}

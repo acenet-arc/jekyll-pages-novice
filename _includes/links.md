@@ -24,7 +24,7 @@
 [github-flavored-markdown]: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 [gitlab-flavored-markdown]: https://docs.gitlab.com/ee/user/markdown.html
 [github-importer]: https://import.github.com/
-[github-jekyll-issues]: https://github.com/carpentries-incubator/building-websites-with-jekyll-and-github-or-gitlab/issues
+[github-jekyll-issues]: https://github.com/acenet-arc/jekyll-pages-novice/issues
 [gitlab]: https://gitlab.com/
 [html5-wikipedia]: https://en.wikipedia.org/wiki/HTML5
 [html5-tags]: https://www.tutorialrepublic.com/html-reference/html5-tags.php
