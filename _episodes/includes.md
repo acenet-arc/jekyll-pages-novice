@@ -25,7 +25,7 @@ email addresses and social media handles.
 > and browse some other pages on the same site.
 >
 > * [The Software Sustainability Institute][ssi-homepage]
-> * [DiverseKids Book Store][diversekids]
+> * [ACENET][ace-net]
 >
 > What content is being reused between pages on these sites?
 > Pair up and compare your partner's notes with your own.
@@ -45,15 +45,10 @@ email addresses and social media handles.
 > > blog and news posts all end with a description of
 > > how the reader can contact the SSI to discuss the content.
 > >
-> > The DiverseKids site has the same kind of shared header and footer
+> > The ACENET site has the same kind of shared header and footer
 > > on each page: this is a common theme across most websites,
 > > helping to improve navigation and other aspects of the user experience
 > > and achieve consistent "branding" across the whole site.
-> > The books listed under each category include a title, a price,
-> > and cover image.
-> > The category links themselves are also shared across each page,
-> > probably generated from the existing categories of books in the collection,
-> > and updated automatically when a category is added or removed.
 > {: .solution }
 {: .challenge }
 

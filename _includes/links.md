@@ -13,7 +13,7 @@
 [cran-stringr]: https://cran.r-project.org/package=stringr
 [date-iso]: https://en.wikipedia.org/wiki/ISO_8601
 [dc-lessons]: http://www.datacarpentry.org/lessons/
-[diversekids]: https://diversekids.co.uk/
+[ace-net]: https://ace-net.ca/
 [dry-principle]: https://en.wikipedia.org/wiki/Don%27t_repeat_yourself
 [email]: mailto:team@carpentries.org
 [filters]: https://jekyllrb.com/docs/liquid/filters/
