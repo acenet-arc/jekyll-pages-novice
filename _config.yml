@@ -55,7 +55,7 @@ instructor_post_survey: "https://www.surveymonkey.com/r/instructor_training_post
 
 
 # Start time in minutes (0 to be clock-independent, 540 to show a start at 09:00 am).
-start_time: 0
+start_time: 600
 
 # Specify that things in the episodes collection should be output.
 collections:
@@ -72,10 +72,12 @@ episode_order:
   - introduction
   - markdown
   - github-pages
+  - break1
   - starting-jekyll
   - includes
   - layouts
   - filters
+  - break2
   - arrays
   - wrap-up
 

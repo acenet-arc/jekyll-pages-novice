@@ -15,6 +15,7 @@ keypoints:
 - "The structure of a page is determined by the `layout` field in the page front matter"
 - "You can find many pre-existing themes for sites on the Internet"
 - "You can avoid duplicated effort by basing new layouts on previous ones"
+start: true
 ---
 
 {% include base_path.html %}
