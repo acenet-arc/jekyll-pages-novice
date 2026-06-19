@@ -36,6 +36,7 @@ This tutorial aims to address this,
 by providing a step-by-step guide to creating a collection of pages
 and combining them into a coherent site using a framework called _Jekyll_.
 
+<!--
 > ## Outdated Screenshots
 >
 > Throughout this lesson we will make use and show content and screenshots from GitHub.com.
@@ -47,6 +48,7 @@ and combining them into a coherent site using a framework called _Jekyll_.
 > please [open an issue][github-jekyll-issues] describing what you see and how it differs from the lesson content.
 > Feel free to add as many screenshots as necessary to clarify the discrepancy.
 {: .callout }
+-->
 
 > ## Learning Objectives
 >
