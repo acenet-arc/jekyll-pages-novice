@@ -106,7 +106,7 @@ Let's make use of global parameters in our pages.
    ## Contact us
 
    - Email: [{% raw %}{{ site.email }}{% endraw %}](mailto:{% raw %}{{ site.email }}{% endraw %})
-   - Twitter: [@thecarpentries](https://twitter.com/thecarpentries)
+   - GitHub: [https://github.com/swcarpentry](https://github.com/swcarpentry)
    ~~~
    {: .language-markdown }
 
@@ -114,22 +114,22 @@ Let's make use of global parameters in our pages.
 4. Note that site parameters will not render nicely when viewing files in GitHub (they will be displayed as text
 `{% raw %}{{ site.PARAMETER_NAME }}{% endraw %}` rather than the parameter's rendered value) but will in the website.
 
-> ## Exercise: Create a Global Twitter Parameter
-> In `about.md` we have a Twitter URL under the 'Contact us' section. That's one piece of information that could go into
+> ## Exercise: Create a Global GitHub Parameter
+> In `about.md` we have a GitHub URL under the 'Contact us' section. That's one piece of information that could go into
 > global parameters in `_config.yml` as you may want to repeat it on a footer of every page.
-> Make changes to your website to extract Twitter URL as a global parameter.
+> Make changes to your website to extract GitHub URL as a global parameter.
 > > ## Solution
-> > 1. Add parameter twitter to `_config.yml`:
+> > 1. Add parameter github to `_config.yml`:
 > >
 > >    ~~~
 > >    description: "This research project develops training materials for reseachers wanting to learn to build project
 > >    websites in GitHub with GitHub Pages."
 > >    email: "team@carpentries.org"
-> >    twitter: "https://twitter.com/thecarpentries"
+> >    github: "https://github.com/swcarpentry"
 > >    ~~~
 > >    {: .language-yaml}
 > >
-> > 2. Make use of the twitter parameter in `about.md`:
+> > 2. Make use of the github parameter in `about.md`:
 > >
 > >    ~~~
 > >    # About
@@ -151,11 +151,11 @@ Let's make use of global parameters in our pages.
 > >    ## Contact us
 > >
 > >    - Email: [{% raw %}{{ site.email }}{% endraw %}](mailto:{% raw %}{{ site.email }}{% endraw %})
-> >    - Twitter: [{% raw %}{{ site.twitter }}{% endraw %}]({% raw %}{{ site.twitter }}{% endraw %})
+> >    - GitHub: [{% raw %}{{ site.github }}{% endraw %}]({% raw %}{{ site.github }}{% endraw %})
 > >    ~~~
 > >    {: .language-markdown }
 > >
-> > 3. Note that you should not see any changes to your website really. However, you can now access your Twitter URL from
+> > 3. Note that you should not see any changes to your website really. However, you can now access your GitHub URL from
 > > any website page, should you need to.
 > {: .solution}
 {: .challenge}
@@ -180,16 +180,16 @@ either due to a typo or missing information.
 >
 > > ## Solution
 > >
-> > For instance, a missing closing quote `"` in the `twitter` variable.
+> > For instance, a missing closing quote `"` in the `github` variable.
 > > ~~~
 > > description: "This research project develops training materials for reseachers wanting to learn to build project
 > > websites in GitHub with GitHub Pages."
 > > email: "team@carpentries.org"
-> > twitter: "https://twitter.com/thecarpentries
+> > github: "https://github.com/swcarpentry
 > > ~~~
 > > {: .language-yaml}
 > >
-> > If you navigate your GitHub repository you would be able to see something break in `about.md` where we use `{% raw %}{{ site.twitter }}{% endraw %}` however,
+> > If you navigate your GitHub repository you would be able to see something break in `about.md` where we use `{% raw %}{{ site.github }}{% endraw %}` however,
 > > contrary to what we saw before with invalid Markdown,
 > > Jekyll will refuse to build the website and produce an error message.
 > >
@@ -233,7 +233,7 @@ Lets go ahead and fix your intentional typo and re-add the missing `"`:
 description: "This research project develops training materials for reseachers wanting to learn to build project
 websites in GitHub with GitHub Pages."
 email: "team@carpentries.org"
-twitter: "https://twitter.com/thecarpentries"
+github: "https://github.com/swcarpentry"
 ~~~
 {: .language-yaml}
 

@@ -178,7 +178,7 @@ to get the same navigation section displayed on every page.
 > >## Contact us
 > >
 > >   - Email: [{% raw %}{{ site.email }}{% endraw %}](mailto:{% raw %}{{ site.email }}{% endraw %})
-> >   - Twitter: [{% raw %}{{ site.twitter }}]({{ site.twitter }}{% endraw %})
+> >   - GitHub: [{% raw %}{{ site.github }}]({{ site.github }}{% endraw %})
 > >   ~~~
 > >    {: .language-markdown }
 > {: .solution }
@@ -200,7 +200,7 @@ We will see another example of this shortly.
 > If you'd like to investigate further,
 > you might try creating a global variable in your site's `_config.yml`
 > which includes a call to another variable in its value, e.g.
-> `social: "{% raw %}Follow us on [Twitter]({{site.twitter}}){% endraw %}"`,
+> `social: "{% raw %}Fork us on [GitHub]({{site.github}}){% endraw %}"`,
 > and using it in a page (`{% raw %}{{site.social}}{% endraw %}` for the example above).
 {: .callout }
 
@@ -213,7 +213,7 @@ in multiple places throughout your site as a footer.
 ## Contact us
 
 - Email: [{% raw %}{{ site.email }}{% endraw %}](mailto:{% raw %}{{ site.email }}{% endraw %})
-- Twitter: [{% raw %}{{ site.twitter }}{% endraw %}]({% raw %}{{ site.twitter }}{% endraw %})
+- GitHub: [{% raw %}{{ site.github }}{% endraw %}]({% raw %}{{ site.github }}{% endraw %})
 ~~~
 {: .language-markdown }
 
@@ -225,7 +225,7 @@ Let's convert the above Markdown snippet into HTML as shown below and reuse it i
 <p>Contact us</p>
 <ul>
     {% raw %}<li>Email: <a href="mailto:{{ site.email }}">{{ site.email }}</a></li>{% endraw %}
-    {% raw %}<li>Twitter: <a href="{{ site.twitter }}">{{ site.twitter }}</a></li>{% endraw %}
+    {% raw %}<li>GitHub: <a href="{{ site.github }}">{{ site.github }}</a></li>{% endraw %}
 </ul>
 ~~~
 {: .language-html }

@@ -135,7 +135,7 @@ display it in `about.md`.
    ~~~
    description: "This is an example website built while learning how to use Jekyll and GitHub Pages."
    email: "team@carpentries.org"
-   twitter: "https://twitter.com/thecarpentries"
+   github: "https://github.com/swcarpentry"
    team_members:
      -
        name: "Sarah Becker"
@@ -265,7 +265,7 @@ we only need to update the list in `_config.yml` without editing the individual 
 > > ~~~
 > > description: "This is an example website built while learning how to use Jekyll and GitHub Pages."
 > > email: "team@carpentries.org"
-> > twitter: "https://twitter.com/thecarpentries"
+> > github: "https://github.com/swcarpentry"
 > > team_members:
 > >   -
 > >     name: "Tom Cat"

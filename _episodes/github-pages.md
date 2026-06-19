@@ -214,7 +214,7 @@ are both valid link targets
 > >    ## Contact us
 > >
 > >    - Email: [team@carpentries.org](mailto:team@carpentries.org)
-> >    - Twitter: [@thecarpentries](https://twitter.com/thecarpentries)
+> >    - GitHub: [https://github.com/swcarpentry](https://github.com/swcarpentry)
 > >    ~~~
 > >    {: .language-markdown }
 > >
