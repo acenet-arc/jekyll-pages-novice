@@ -73,7 +73,7 @@ After having changed something, the commit menu looks like this:
 > It is best practice to change this message to a short but more informative message about what in the file has changed.
 > This more descriptive message will make it much easier if future you needs to go looking through the history
 > for which commit made a specific change.
-> You can find more about writing commit message in [the Software Carpentry _Version Control with Git_ lesson](https://swcarpentry.github.io/git-novice/04-changes/index.html).
+> You can find more about writing commit message in [the Software Carpentry _Version Control with Git_ lesson](https://swcarpentry.github.io/git-novice/04-changes.html).
 >
 {: .callout}
 
