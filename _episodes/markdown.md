@@ -164,7 +164,7 @@ Let's do an exercise to try out writing more markdown.
 > - Some text under that second level heading that includes an link and ~~strikethrough~~ text.
 > - A third level heading
 > - A numbered list
-> - Bonus: Add this image <https://raw.githubusercontent.com/carpentries/carpentries.org/main/images/TheCarpentries-opengraph.png>
+> - Bonus: Add this image <https://carpentries.org/thecarpentries-opengraph.png>
 >
 > > ## Example Solution
 > > For example your markdown might look like the following:
@@ -179,7 +179,7 @@ Let's do an exercise to try out writing more markdown.
 > > 3. Commonly used for websites and software development
 > > 4. We ~~don't~~ use it in The Carpentries
 > >
-> > ![Carpentries Logo](https://github.com/carpentries/carpentries.org/raw/main/images/TheCarpentries-opengraph.png)
+> > ![Carpentries Logo](https://carpentries.org/thecarpentries-opengraph.png)
 > > ~~~
 > > {: .language-markdown }
 > > ![Rendered solution to the Markdown exercise](../fig/markdown_exercise.png){: .image-with-shadow width="800px" }
