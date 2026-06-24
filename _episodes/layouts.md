@@ -21,7 +21,7 @@ start: true
 {% include base_path.html %}
 
 Elements that will appear on every page across our website,
-like the banner image we included in our pages in the previous section,
+like the navigation bar we included in our pages in the previous section,
 form part of the structure of the page:
 unlike the content specific to each page,
 these structural elements do not change from page to page.
@@ -65,7 +65,7 @@ to apply this layout to your site's home page,
 then do the same in the front matter of `about.md`.
 When you reload your site's homepage (or any page you applied the layout to), you will see
 that there is good news and bad news:
-The good news: the navigation links are there again;
+The good news: the navigation links are there;
 the bad: all the other page content has disappeared!
 
 The page content is missing because we haven't yet told Jekyll where to put it.
